@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+#book-form {
+  margin-bottom: 20px;
+}
+
+#book-form label {
+  font-weight: bold;
+}
+
+#book-form input[type="text"] {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#book-form input[type="submit"] {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#book-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#book-list li {
+  background-color: #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
